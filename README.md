@@ -38,5 +38,5 @@ If you get the following error, you need to edit
 ```
 
 ## Link
-https://developers.google.com/ad-manager/mobile-ads-sdk/ios/interstitial
-https://developers.google.com/ad-manager/mobile-ads-sdk/ios/quick-start#update_your_infoplist
+- https://developers.google.com/ad-manager/mobile-ads-sdk/ios/interstitial
+- https://developers.google.com/ad-manager/mobile-ads-sdk/ios/quick-start#update_your_infoplist
