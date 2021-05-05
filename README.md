@@ -7,22 +7,22 @@ This is a sample to display admob in swiftUI
 
 ## pod and info.plist settings
 Create a swift UI project in xcode.
-pod init
+pod init.
 ```
 admob-in-swiftui % pod init
 ```
 
-Edit Podfile
+Edit Podfile.
 ```
 pod 'Google-Mobile-Ads-SDK'
 ```
 
-pod install
+pod install.
 ```
 admob-in-swiftui % pod install --repo-update
 ```
 
-Edit info.plist (open as source code)
+Edit info.plist (open as source code).
 ```
 <!-- Sample AdMob App -->
 <key>GADApplicationIdentifier</key>
@@ -30,7 +30,7 @@ Edit info.plist (open as source code)
 <!-- Sample AdMob App ID: -->
 ```
 
-If you get the following error, you need to edit
+If you get the following error, you need to edit.
 `The Google Mobile Ads SDK was initialized without AppMeasurement.`
 ```
 <key>GADIsAdManagerApp</key>
