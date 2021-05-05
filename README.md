@@ -5,6 +5,12 @@ This is a sample to display admob in swiftUI
 
 - This Project shows how to load a GADInterstitialAd 
 
+## How to use
+
+- `git clone`
+- `pod install --repo-update`
+- Connect your iphone and run it with xcode
+
 ## pod and info.plist settings
 Create a swift UI project in xcode.
 pod init.

@@ -14,6 +14,10 @@
 		4737D4082642490C0032AFC8 /* admob_in_swiftuiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4737D4072642490C0032AFC8 /* admob_in_swiftuiTests.swift */; };
 		4737D4132642490C0032AFC8 /* admob_in_swiftuiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4737D4122642490C0032AFC8 /* admob_in_swiftuiUITests.swift */; };
 		4737D44226424F6D0032AFC8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4737D44126424F6D0032AFC8 /* README.md */; };
+		4737D4B32642A5E60032AFC8 /* NativeAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4737D4B22642A5E60032AFC8 /* NativeAdView.swift */; };
+		4737D4B82642A5F60032AFC8 /* NativeAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4737D4B72642A5F60032AFC8 /* NativeAdViewController.swift */; };
+		4737D5012642B0330032AFC8 /* NativeAdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4737D5002642B0330032AFC8 /* NativeAdView.xib */; };
+		4737D50C2642BCAD0032AFC8 /* InterstitialAdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4737D50B2642BCAD0032AFC8 /* InterstitialAdView.swift */; };
 		84EC5A84C21F81E1914A2B2F /* Pods_admob_in_swiftui_admob_in_swiftuiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79F5C338A1095D29180B167F /* Pods_admob_in_swiftui_admob_in_swiftuiUITests.framework */; };
 		C1FF485B9E242481917BBD6F /* Pods_admob_in_swiftui.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EF5D883CD0ADB06D0EE8A05 /* Pods_admob_in_swiftui.framework */; };
 		D22ABA58ACCF38B0FDBADAF1 /* Pods_admob_in_swiftuiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B25229A8059D9ADC6CD2142 /* Pods_admob_in_swiftuiTests.framework */; };
@@ -53,6 +57,10 @@
 		4737D4122642490C0032AFC8 /* admob_in_swiftuiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = admob_in_swiftuiUITests.swift; sourceTree = "<group>"; };
 		4737D4142642490C0032AFC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4737D44126424F6D0032AFC8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4737D4B22642A5E60032AFC8 /* NativeAdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeAdView.swift; sourceTree = "<group>"; };
+		4737D4B72642A5F60032AFC8 /* NativeAdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeAdViewController.swift; sourceTree = "<group>"; };
+		4737D5002642B0330032AFC8 /* NativeAdView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NativeAdView.xib; sourceTree = "<group>"; };
+		4737D50B2642BCAD0032AFC8 /* InterstitialAdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterstitialAdView.swift; sourceTree = "<group>"; };
 		6416F72F18403C2DFD840EF8 /* Pods-admob-in-swiftui.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-admob-in-swiftui.debug.xcconfig"; path = "Target Support Files/Pods-admob-in-swiftui/Pods-admob-in-swiftui.debug.xcconfig"; sourceTree = "<group>"; };
 		79F5C338A1095D29180B167F /* Pods_admob_in_swiftui_admob_in_swiftuiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_admob_in_swiftui_admob_in_swiftuiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9399C8F13F43F4B00A9E56FF /* Pods-admob-in-swiftui-admob-in-swiftuiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-admob-in-swiftui-admob-in-swiftuiUITests.debug.xcconfig"; path = "Target Support Files/Pods-admob-in-swiftui-admob-in-swiftuiUITests/Pods-admob-in-swiftui-admob-in-swiftuiUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -93,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				4737D44126424F6D0032AFC8 /* README.md */,
+				4737D5002642B0330032AFC8 /* NativeAdView.xib */,
 				4737D3F42642490B0032AFC8 /* admob-in-swiftui */,
 				4737D4062642490C0032AFC8 /* admob-in-swiftuiTests */,
 				4737D4112642490C0032AFC8 /* admob-in-swiftuiUITests */,
@@ -117,6 +126,9 @@
 			children = (
 				4737D3F52642490B0032AFC8 /* admob_in_swiftuiApp.swift */,
 				4737D3F72642490B0032AFC8 /* ContentView.swift */,
+				4737D50B2642BCAD0032AFC8 /* InterstitialAdView.swift */,
+				4737D4B22642A5E60032AFC8 /* NativeAdView.swift */,
+				4737D4B72642A5F60032AFC8 /* NativeAdViewController.swift */,
 				4737D3F92642490C0032AFC8 /* Assets.xcassets */,
 				4737D3FE2642490C0032AFC8 /* Info.plist */,
 				4737D3FB2642490C0032AFC8 /* Preview Content */,
@@ -281,6 +293,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4737D5012642B0330032AFC8 /* NativeAdView.xib in Resources */,
 				4737D44226424F6D0032AFC8 /* README.md in Resources */,
 				4737D3FD2642490C0032AFC8 /* Preview Assets.xcassets in Resources */,
 				4737D3FA2642490C0032AFC8 /* Assets.xcassets in Resources */,
@@ -413,6 +426,9 @@
 			files = (
 				4737D3F82642490B0032AFC8 /* ContentView.swift in Sources */,
 				4737D3F62642490B0032AFC8 /* admob_in_swiftuiApp.swift in Sources */,
+				4737D50C2642BCAD0032AFC8 /* InterstitialAdView.swift in Sources */,
+				4737D4B32642A5E60032AFC8 /* NativeAdView.swift in Sources */,
+				4737D4B82642A5F60032AFC8 /* NativeAdViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
